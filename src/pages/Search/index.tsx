@@ -38,7 +38,8 @@ const Search = () => {
    
   
     { active && <div className="search-response">
-    { loading  ? <><ImageLoader /> <InfoLoader /></> :
+    { loading  ? <div className="box loader"> <div className="img-perfil loader"><ImageLoader /></div> 
+    <div className="info loader"><InfoLoader /></div></div> :
       <UserResponse user={userResponse!} />
      }
   </div>}
@@ -48,5 +49,3 @@ const Search = () => {
 };
 
 export default Search;
-
-{/* <UserResponse user={userResponse!} /> */}
