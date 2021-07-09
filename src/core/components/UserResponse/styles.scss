@@ -1,0 +1,126 @@
+.box {
+    display: flex;
+   
+    
+    width: 1251px;
+    height: 387px;
+    margin-top: 54px;
+    /* Grey / grey-3 */
+    
+    background: #F5F5F5;
+    border-radius: 8px;
+    padding-top: 23px;
+    padding-left: 30px;
+    margin-left: 90px;
+    margin-bottom: 73px;
+
+   
+    
+}
+
+.img-perfil {
+  
+    margin-right: 44px;
+    display: flex;
+    flex-direction: column;
+
+    & button {
+        margin-top: 17px;
+    }
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.bars {
+    position: relative;
+    display: inline-block;
+    height: 22px;
+   width: 870px;
+    background: #F5F5F5;
+    margin-bottom: 11px;
+    
+}
+
+.bar1, .bar2, .bar3 {
+   position: relative;
+    height: 20px;
+    margin-right: 8px;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 1px 14px;
+    background: #FFFFFF;
+
+    /* Regular / 12px | 20 px */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+   
+
+    /* Grey / grey-8 */
+
+    color: #595959;
+}
+.details {
+    position: relative;
+    width: 870px;
+    height: 247px;
+    /* Grey / grey-1 */
+    background: #FFFFFF;
+    /* Grey / grey-5 */
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+ .primary {
+    position: relative;
+    width: 534px;
+    height: 28px;
+    left: 14px;
+    top: 8px;
+    color: #1890FF;
+    padding: 8px 14px 19px auto;
+    margin-bottom: 19px;
+    
+    /* Semibold / 20 px | 28 px */
+    
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    
+    display: flex;
+    align-items: center;  
+}
+
+.repository {
+    background: #FFFFFF;
+/* Grey / grey-5 */
+  & .detail {
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 10px;
+    font-weight: bold;
+  
+    margin: 0 14px 5px 17px;
+
+    &:last-child >span {
+            text-transform: capitalize;
+    }
+  }
+  & span {
+      font-weight: 400;
+  }
+
+}
