@@ -31,6 +31,7 @@ const Search = () => {
 
       ).catch(err => {
         setIsLoading(false)
+        setActive(false)
         setUserResponse(undefined)
         console.log(err)
       })
