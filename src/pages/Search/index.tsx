@@ -17,18 +17,23 @@ const Search = () => {
 
     const getGitUser = () => {
       const user = document.querySelector('input')!.value 
-      if(user === "") return
+
+      if(!user) return
+
         setIsLoading(true)
         setActive(true)
-        
+     
         makeRequest({user}).then(response => setUserResponse(response.data))
       .finally(() => {
         setIsLoading(false);
        // console.log(userResponse)
         
     }
-  )
+   
+  ).catch(err => console.log(err))
+
 };
+
       
     return (
       <div className="search-container body-color">
