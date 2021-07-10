@@ -11,7 +11,7 @@ import React, { useState } from 'react'
 const Search = () => {
   const [loading, setIsLoading] = useState(false);
   const [active, setActive] = useState(false);
-  const [userResponse, setUserResponse] = useState<User>();
+  const [userResponse, setUserResponse] = useState<User | undefined>();
 
 
   const getGitUser = () => {
@@ -29,7 +29,11 @@ const Search = () => {
 
       }
 
-      ).catch(err => console.log(err))
+      ).catch(err => {
+        setIsLoading(false)
+        setUserResponse(undefined)
+        console.log(err)
+      })
 
   };
 
@@ -41,7 +45,7 @@ const Search = () => {
         {active && <div className="search-response">
           {loading ? <div className="box loader"> <div className="img-perfil loader"><ImageLoader /></div>
             <div className="info loader"><InfoLoader /></div></div> :
-            <UserResponse user={userResponse!} />
+            userResponse && <UserResponse user={userResponse} />
           }
         </div>}
       </div>

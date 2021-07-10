@@ -32,10 +32,9 @@ const UserResponse = ({ user }: Props) => {
             <div className="detail">Empresa:<span> {user?.company}</span></div>
             <div className="detail">Website/Blog:<span> {user?.blog}</span></div>
             <div className="detail">Localidade:<span> {user?.location}</span></div>
-            <div className="detail">Membro desde: <span> {formatDate(new Date(user?.created_at))}</span></div>
+            <div className="detail">Membro desde: <span> {user && formatDate(new Date(user?.created_at))}</span></div>
           </div>
         </div>
-
       </div>
     </div>
   )
