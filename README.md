@@ -15,7 +15,7 @@ This project was developed using the following technologies:
 ## Layout web
 
 ### Main page
-![Main Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/2021-07-10%20185931.png)
+![Main Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/main-page.png)
 
 ### Search page
 ![Search Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/2021-07-10-gitsearch.png)
