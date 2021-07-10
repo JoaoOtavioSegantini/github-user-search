@@ -1,3 +1,4 @@
+# Project description 
  This is a simple application developed in second version of Bootcamp called DevSuperior as challenge for event conclusion. The main objective of this project is github user search using official Github API.
 
 ## What is inside?
