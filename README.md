@@ -1,3 +1,28 @@
+This is a simple application developed in second version of Bootcamp called DevSuperior as challenge for event conclusion. The main objective of this project is github user search using official Github API.
+
+## What is inside?
+
+This project was develop using the following technologies:
+
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJS](https://reactjs.org/)
+- [Sass](https://sass-lang.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [React Skeleton](https://skeletonreact.com/)
+
+## Layout web
+
+![Main Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/2021-07-10%20185931.png)
+
+
+![Search Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/2021-07-10-gitsearch.png)
+
+
+![Result Example 1](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/Captura%20de%20tela%202021-07-10result1.png)
+
+![Result Example 2](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/Captura%20de%20tela%202021-07-10result3.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +69,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
