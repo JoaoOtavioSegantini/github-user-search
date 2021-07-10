@@ -21,7 +21,7 @@ This project was developed using the following technologies:
 ![Search Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/2021-07-10-gitsearch.png)
 
 ### Search example 1
-![Result Example 1](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/gitseach1result.png)
+![Result Example 1](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/gitsearch1result.png)
 
 ### Search example 2
 ![Result Example 2](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/gitseachresult.png)
