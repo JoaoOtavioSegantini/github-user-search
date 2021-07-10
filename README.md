@@ -1,9 +1,10 @@
 # Project description 
- This is a simple application developed in second version of Bootcamp called DevSuperior as challenge for event conclusion. The main objective of this project is github user search using official Github API.
+
+ This is a simple application developed in a second version of Bootcamp called DevSuperior as a challenge to complete the event. The main objective of this project is user search using the official Github API.
 
 ## What is inside?
 
-This project was develop using the following technologies:
+This project was developed using the following technologies:
 
 - [TypeScript](https://www.typescriptlang.org/)
 - [ReactJS](https://reactjs.org/)
