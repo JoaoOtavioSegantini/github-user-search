@@ -1,4 +1,4 @@
-This is a simple application developed in second version of Bootcamp called DevSuperior as challenge for event conclusion. The main objective of this project is github user search using official Github API.
+ This is a simple application developed in second version of Bootcamp called DevSuperior as challenge for event conclusion. The main objective of this project is github user search using official Github API.
 
 ## What is inside?
 
@@ -12,16 +12,16 @@ This project was develop using the following technologies:
 
 ## Layout web
 
-###Main page
+### Main page
 ![Main Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/2021-07-10%20185931.png)
 
-###Search page
+### Search page
 ![Search Page](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/2021-07-10-gitsearch.png)
 
-###Search example 1
+### Search example 1
 ![Result Example 1](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/Captura%20de%20tela%202021-07-10result1.png)
 
-###Search example 2
+### Search example 2
 ![Result Example 2](https://github.com/JoaoOtavioSegantini/assets/blob/main/raw/bootdev/Captura%20de%20tela%202021-07-10result3.png)
 
 
